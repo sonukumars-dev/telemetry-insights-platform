@@ -77,50 +77,5 @@ Request
 Response
 {"anomalyScore":0.07,"isAnomaly":false}
 
-#REPO STRUCTURE
-telemetry-insights-platform/
-│
-├── telemetry-ingestion-service/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/sonu/telemetry/
-│   │   │   │   ├── controller/
-│   │   │   │   ├── service/
-│   │   │   │   ├── repository/
-│   │   │   │   ├── model/
-│   │   │   │   └── config/
-│   │   │   └── resources/
-│   │   │       ├── application.yml
-│   │   │       └── logback-spring.xml
-│   │   └── test/java/com/sonu/telemetry/
-│   │       └── TelemetryIngestionServiceTests.java
-│   ├── build.gradle
-│   ├── settings.gradle
-│   ├── gradlew
-│   ├── gradlew.bat
-│   ├── gradle/
-│   │   └── wrapper/
-│   │       ├── gradle-wrapper.jar
-│   │       └── gradle-wrapper.properties
-│   └── Dockerfile
-│
-├── telemetry-ai-service/
-│   ├── app/
-│   │   ├── main.py
-│   │   ├── model.pkl
-│   │   ├── train_model.py
-│   │   └── requirements.txt
-│   └── Dockerfile
-│
-├── infra/
-│   ├── terraform/
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   └── outputs.tf
-│   └── ci-cd/
-│       ├── github-actions.yml
-│       └── docker-build.yml
-│
-├── docker-compose.yml
-├── README.md
-└── .gitignore
+#PROPOSED REPO STRUCTURE
+![img.png](img.png)
